@@ -1,0 +1,27 @@
+body {
+    background-color:black;
+    color:white;
+    font-family:cursive;
+}
+
+a {
+    color:cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(10, 43, 233);
+}
+
+h1{
+    font-family:Calibri,Arial, sans-serif;
+}
+
+p {
+    font-family:Calibri,Arial, sans-serif;
+}
+
+.portrait{
+    max-width:300px;
+    width:50%;
+}
