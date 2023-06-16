@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" context="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/assets/css/style.css">
+        <meta ref="/assets/css/style.css">
     </head>
 
     <body>
@@ -12,7 +13,6 @@
          <h1>Jasper Thibodeaux</h1>
          <p>
               <ul>
-                    <li><a href="http://127.0.0.1:3000/index.html" target="http://127.0.0.1:3000/index.html" rel="no open reference">Home</a></li>
                     <li><a href="https://github.com/jasPerSh122902" target="https://github.com/jasPerSh122902" rel="no open reference">GitHub</a></li>
                     <li><a href="https://www.linkedin.com/in/jasper-thibodeaux-1b253a230/"target="https://www.linkedin.com/in/jasper-thibodeaux-1b253a230/" rel="noopener noreferrer">Linkedin</a></li>
                     <li><a href="https://resume.creddle.io/resume/5wfazbilz96" target="https://resume.creddle.io/resume/5wfazbilz96" rel="no open reference">Reseme</a></li>
@@ -27,11 +27,17 @@
             <h3>Start UI</h3>
             <p><img class="portrait" src="assets/img/DoubleButtonFix1.0.gif"/></p>
             <p>When making the start UI I wanted the artist to easily put in their assets. I put all of the buttons in their respective containers so I could turn them off visually to change the menu. Each time I go to options I turn off the other menu This made organizing each menu easier and having the ability when, making the menu to turn off what, I was not working on currently. I used console commands to call the other level to start th</p>
-            <h3>Restart</h3>
+            <h3>Restart UI</h3>
             <p>The restart menu is a UI overlay that when you die it covers your sreen. By doing this I made the input for the level go to UI only, then game the restart button call the current level using system commands. The start and restart menu when going betwee the options on the menu work the same way.</p>
             <p><img class="portrait" src="assets/img/DeathWithRestart.gif"/></p>
-            <div class="scrole" href="/assets/css/style.css"></div>
-
+            <h3>Shooting</h3>
+            <p><img class="portrait" src="assets/img/GunFireing1.0.gif"/></p>
+            <p>Shooting is one of the main forms of damage. When you hold the main fire bullet(left click/right lower bumper) you can automatically shoot. And just in case you got a rocket on your right click/ left lower bumper that destroys every thing in your way.</p>
+            <h4>Bullet</h4>
+            <p>The gun is split into 3 parts. The crank, the back blast, and the bullet coming out of the barrel. The back blast of the gun makes a bool that was set in the player to true. Then the function to spawn the bullet is called. In the player I allowed the function to print bullets in tick to have auto fire happen.</p>
+            <h4>Missle</h4>
+            <p><img class="portrait" src="assets/img/rocketparticles1.0.gif"/></p>
+            <p>The missile is an area effect damage that on impact with a wall or enemy will explode. On collision, the mesh for the rocket is disabled for visibility and I increase its size by 30 unity in each direction. By doing this I was able to keep the rocket simple and easy to understand. I only wanted a small amount in Blurprint and I needed to add particles and sound calls in Blurprint to make it spawn them.</p>
         </div>
     </body>
 </html>
