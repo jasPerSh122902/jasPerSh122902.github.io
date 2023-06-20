@@ -1,31 +1,24 @@
-body {
+body{
+    margin: 0px;
     background-color:black;
     color:white;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-a {
-    color:cornflowerblue;
+a{
+    color:rgb(2, 137, 228);
     text-decoration: none;
 }
+a:hover{color:rgb(0, 255, 200);}
+h1{font-family:Calibri,Arial, sans-serif;}
+p{ font-family:Calibri,Arial, sans-serif;}
 
-a:hover{
-    color:rgb(10, 43, 233);
-}
-
-h1{
-    font-family:Calibri,Arial, sans-serif;
-}
-
-p {
-    font-family:Calibri,Arial, sans-serif;
-}
 .navigation{
-    background-color:navy;
+    background-color:rgb(68, 2, 68);
     width: 100%;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     padding-left: 16px;
-    position: fixed;
+    position: static;
 }
 .navigation ul{
     list-style-type: none;
@@ -38,10 +31,33 @@ p {
     float:left;
     padding-right: 5%;
 }
-
-.content{
-    padding-top: 150px;
+.menu{
+    display: inline-block;
+    background-color:transparent;
+    outline: transparent;
+    cursor: pointer;
+    color: rgb(2, 137, 228);
 }
+
+.menu:hover .menuContent{
+    display:contents;
+}
+
+.menuContent{
+    display: none;
+    position: absolute;
+    padding-left: 250px;
+    z-index: 1;
+}
+.menuContent a{
+
+    color: rgb(2, 137, 228);
+    padding: 18px 60px;
+    display: block;
+}
+.menuContent a:hover{color: rgb(0, 255, 200);}
+.content{ padding-top: 0px;}
+
 .scrole{
     margin-left:25%;
     padding:1px 16px;
@@ -52,3 +68,12 @@ p {
     width:50%;
     padding-left: 220px;
 }
+.headerportrait{
+    max-width:600px;
+    padding-left: 150px;
+}
+
+.header{color:rgb(144, 143, 240);}
+.mainheader{color:rgb(156, 7, 161);}
+.paragraph_Text{color: darkgrey;}
+.paragraph_Text:hover{color: darkgrey;}

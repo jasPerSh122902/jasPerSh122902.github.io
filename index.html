@@ -13,36 +13,25 @@
          <h1>Jasper Thibodeaux</h1>
          <p>
               <ul>
+                    <li><a href="/index.html">Home</a></li>
                     <li><a href="https://github.com/jasPerSh122902">GitHub</a></li>
                     <li><a href="https://www.linkedin.com/in/jasper-thibodeaux-1b253a230/">Linkedin</a></li>
                     <li><a href="/assets/img/reseme.pdf">Reseme</a></li>
+                        <button class="menu">Projects</a>
+                        <div class="menuContent">
+                            <a href="/projects.html">Hamburger Hell</a>
+                            <a href="#">Yokai Invasion</a>
+                        </div>
              </ul>
          </p>
         </div>
         <div class="content">
             <p><img class="portrait" src="/assets/img/P1030963.JPG"/></p>
-            <p>I am a graduate of AIE, i live in lousiana and these are some of the system that i developed for games I made.</p>
-            <h2>Hambergur Hell</h2>
-            <p>This game was made with the combined power of 3 artists and 3 programmers. I was a programmer and I made the start and restart menu, controller controls for the UI, and shooting of the gun and rocket.</p>
-            <h2>Controller support</h2>
-            <p><img class="portrait" src="/assets/img/Array_Of_Buttons.png"/></p>
-            <p>Controller support was hard to make because I had to think about what way I wanted it done. Here I made an array of buttons that are in the UI and when you tilled the joystick it would increase or decrease the index of the array.</p>
-            <p><img class="portrait" src="/assets/img/Current_Button_Highlight.png"/></p>
-            <p>Then I made the current index that is seleced highlight. I wanted to make it easy on the controller players to know were they are in the menus and this is what I came up with.</p>
-            <h3>Start UI</h3>
-            <p><img class="portrait" src="/assets/img/DoubleButtonFix1.0.gif"/></p>
-            <p>When making the start UI I wanted the artist to easily put in their assets. I put all of the buttons in their respective containers so I could turn them off visually to change the menu. Each time I go to options I turn off the other menu This made organizing each menu easier and having the ability when, making the menu to turn off what, I was not working on currently. I used console commands to call the other level to start th</p>
-            <h3>Restart UI</h3>
-            <p><img class="portrait" src="/assets/img/DeathWithRestart.gif"/></p>
-            <p>The restart menu is a UI overlay that when you die it covers your sreen. By doing this I made the input for the level go to UI only, then game the restart button call the current level using system commands. The start and restart menu when going betwee the options on the menu work the same way.</p>
-            <h3>Shooting</h3>
-            <p>Shooting is one of the main forms of damage. When you hold the main fire bullet(left click/right lower bumper) you can automatically shoot. And just in case you got a rocket on your right click/ left lower bumper that destroys every thing in your way.</p>
-            <h4>Bullet</h4>
-            <p><img class="portrait" src="/assets/img/GunFireing1.0.gif"/></p>
-            <p>The gun is split into 3 parts. The crank, the back blast, and the bullet coming out of the barrel. The back blast of the gun makes a bool that was set in the player to true. Then the function to spawn the bullet is called. In the player I allowed the function to print bullets in tick to have auto fire happen.</p>
-            <h4>Missle</h4>
-            <p><img class="portrait" src="/assets/img/rocketparticles1.0.gif"/></p>
-            <p>The missile is an area effect damage that on impact with a wall or enemy will explode. On collision, the mesh for the rocket is disabled for visibility and I increase its size by 30 unity in each direction. By doing this I was able to keep the rocket simple and easy to understand. I only wanted a small amount in Blurprint and I needed to add particles and sound calls in Blurprint to make it spawn them.</p>
+            <p><a class="paragraph_Text">I am a graduate of AIE, i live in lousiana and these are the games that I have made. To look at the systems that I developed hover over the projects tag.</a></p>
+            <p><img class="headerportrait" src="/assets/img/HamburgHellMainPicture.png"/></p>
+            <p><a class="paragraph_Text">Hamburger Hell was made with the collaboration of 6 people 3 programmers and 3 artists. This project took place for 6 months we used Perforce to save ower work and Trello to distribute tasks. The project was built with the Unreal engine 4.27.</a></p>
+            <p><img class="headerportrait" src="/assets/img/YokaiIvasionPicture.png"/></p>
+            <p><a class="paragraph_Text">Yokai Invasion was made with the combined effort of 6 people 3 programmers and 3 artists. This was made in unity using git to save our work and Trello to distribute tasks.</a></p>
         </div>
     </body>
 </html>
