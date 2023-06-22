@@ -3,6 +3,7 @@ body{
     background-color:black;
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 
 a{
@@ -18,7 +19,6 @@ p{ font-family:Calibri,Arial, sans-serif;}
     width: 100%;
     padding-bottom: 10px;
     padding-left: 16px;
-    position: static;
 }
 .navigation ul{
     list-style-type: none;
@@ -30,6 +30,7 @@ p{ font-family:Calibri,Arial, sans-serif;}
 .navigation li{
     float:left;
     padding-right: 5%;
+    text-align: center;
 }
 .menu{
     display: inline-block;
@@ -66,14 +67,30 @@ p{ font-family:Calibri,Arial, sans-serif;}
 .portrait{
     max-width:250px;
     width:50%;
-    padding-left: 220px;
+    
 }
 .headerportrait{
     max-width:600px;
-    padding-left: 150px;
+    
+}
+.headerportrait2{
+    max-width:600px;
+   
 }
 
-.header{color:rgb(144, 143, 240);}
-.mainheader{color:rgb(156, 7, 161);}
-.paragraph_Text{color: darkgrey;}
+.header{
+    color:rgb(144, 143, 240);
+    
+}
+.mainheader{
+    color:rgb(156, 7, 161);
+    
+}
+.paragraph_Text{
+    color: darkgrey;
+    
+}
 .paragraph_Text:hover{color: darkgrey;}
+.links{
+    padding-left: 620px;
+}
