@@ -38,9 +38,7 @@ p{ font-family:Arial, sans-serif;}
     color: rgb(2, 137, 228);
 }
 
-.menu:hover .menuContent{
-    display:contents;
-}
+.menu:hover .menuContent{display:contents;}
 
 .menuContent{
     display: none;
@@ -48,41 +46,29 @@ p{ font-family:Arial, sans-serif;}
     z-index: 1;
 }
 .menuContent a{
-
     color: rgb(2, 137, 228);
-    padding: 18px 60px;
+    padding:60px;
     display: block;
 }
 .content{ padding-top: 0px;}
 
 .scrole{
     margin-left:25%;
-    padding:1px 16px;
+    padding:16px;
     height:1000px;
 }
 .portrait{
     max-width:400px;
     width:50%;
-   
 }
 .codeportrait{
     max-width:600px;
     width:50%;
-   
 }
 .codeportrait1{
     max-width:1200px;
     width:50%;
-   
 }
-.headerportrait{
-    max-width:600px;
-   
-}
-.headerportrait2{
-    max-width:600px;
-    
-}
-.paragraph_Text{
-    color: darkgrey;
-}
+.headerportrait{max-width:600px;}
+.headerportrait2{max-width:600px;}
+.paragraph_Text{color: darkgrey;}
