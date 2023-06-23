@@ -2,7 +2,7 @@ body{
     margin: 0px;
     background-color:black;
     color:white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: serif;
     text-align: center;
 }
 
@@ -10,9 +10,8 @@ a{
     color:rgb(2, 137, 228);
     text-decoration: none;
 }
-a:hover{color:rgb(0, 255, 200);}
 h1{font-family:Calibri,Arial, sans-serif;}
-p{ font-family:Calibri,Arial, sans-serif;}
+p{ font-family:Arial, sans-serif;}
 
 .navigation{
     background-color:rgb(68, 2, 68);
@@ -30,7 +29,7 @@ p{ font-family:Calibri,Arial, sans-serif;}
 .navigation li{
     float:left;
     padding-right: 5%;
-    text-align: center;
+    padding-left: 16px;
 }
 .menu{
     display: inline-block;
@@ -47,7 +46,6 @@ p{ font-family:Calibri,Arial, sans-serif;}
 .menuContent{
     display: none;
     position: absolute;
-    padding-left: 250px;
     z-index: 1;
 }
 .menuContent a{
@@ -65,32 +63,29 @@ p{ font-family:Calibri,Arial, sans-serif;}
     height:1000px;
 }
 .portrait{
-    max-width:250px;
+    max-width:400px;
     width:50%;
-    
+   
+}
+.codeportrait{
+    max-width:600px;
+    width:50%;
+   
+}
+.codeportrait1{
+    max-width:1000px;
+    width:50%;
+   
 }
 .headerportrait{
     max-width:600px;
-    
+   
 }
 .headerportrait2{
     max-width:600px;
-   
-}
-
-.header{
-    color:rgb(144, 143, 240);
-    
-}
-.mainheader{
-    color:rgb(156, 7, 161);
     
 }
 .paragraph_Text{
     color: darkgrey;
-    
 }
 .paragraph_Text:hover{color: darkgrey;}
-.links{
-    padding-left: 620px;
-}
