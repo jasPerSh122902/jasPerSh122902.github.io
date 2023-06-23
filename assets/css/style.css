@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color:rgb(105, 6, 6);
+    background-color:rgb(114, 4, 46);
     color:white;
     font-family: serif;
     text-align: center;
@@ -14,7 +14,7 @@ h1{font-family:Calibri,Arial, sans-serif;}
 p{ font-family:Arial, sans-serif;}
 
 .navigation{
-    background-color:rgb(4, 47, 71);
+    background-color:rgb(23, 2, 71);
     width: 100%;
     padding-bottom: 10px;
     padding-left: 16px;
